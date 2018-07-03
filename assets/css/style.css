@@ -33,6 +33,7 @@ body {
     background-image: url(../images/leaves-pattern.png);
     margin: auto;
     width: 960px;
+    
 }
 ol, ul {
 	list-style: none;
@@ -55,6 +56,8 @@ h2 {
     font-size: 24px;
     padding: 10px 10px 10px 0px;
     font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 header {
@@ -71,12 +74,15 @@ overflow: hidden;
     color: #ffffff;
     font-size: 25px;
     padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 nav {
     float:right;
     color:#777777;
     padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 nav a {
@@ -89,12 +95,17 @@ nav a {
   color: #777777;
 }
 
+nav a:hover {
+    color: #FF0000;
+}
+
 section {
     clear: both;
     background-color: #ffffff;
     Margin-top: 30px;
     padding: 20px;
     overflow: hidden;
+    border: 2px solid #dddddd;
 }
 
 footer {
@@ -122,6 +133,7 @@ article {
     float: left;
     line-height: 150%;
     font-size: 18px;
+    font-family: arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 figure {
@@ -141,9 +153,13 @@ figcaption {
     font-size: 18px;
     color: #ffffff;
     width: 80%;
+    font-family: arial, 'Helvetica Neue', Helvetica, sans-serif;
     
 }
 
+figcaption:hover {
+    background-color: #3E0CE8;
+}
 
 
 Input[type=text] {
@@ -163,4 +179,16 @@ input[type=submit] {
     background-color: #4aaaa5;
     padding: 5px 15px;
     color: #ffffff;
+}
+
+input[type=submit]:hover {
+    background-color: #7FFF0D;
+    color: #000000
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;  
+    right: 788px; 
+    width: 960px; 
 }
