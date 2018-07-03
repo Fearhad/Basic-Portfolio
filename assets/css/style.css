@@ -118,6 +118,10 @@ footer {
     clear: both;
     border-top: 5px solid #4aaaa5;
     margin-top: 20px;
+    position: fixed;
+    bottom: 0;  
+    right: 800px; 
+    width: 960px; 
 }
 
 hr {
@@ -184,11 +188,4 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #7FFF0D;
     color: #000000
-}
-
-.footer {
-    position: fixed;
-    bottom: 0;  
-    right: 788px; 
-    width: 960px; 
 }
