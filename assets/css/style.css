@@ -118,10 +118,6 @@ footer {
     clear: both;
     border-top: 5px solid #4aaaa5;
     margin-top: 20px;
-    position: fixed;
-    bottom: 0;  
-    right: 800px; 
-    width: 960px; 
 }
 
 hr {
