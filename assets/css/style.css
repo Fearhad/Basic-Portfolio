@@ -161,6 +161,13 @@ figcaption:hover {
     background-color: #3E0CE8;
 }
 
+figcaption a {
+    text-decoration: none;
+}
+
+figcaption a:visited {
+    color: white;
+}
 
 Input[type=text] {
     padding: 10px;
